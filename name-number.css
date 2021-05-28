@@ -1,0 +1,27 @@
+._3Dr46 /*List user/group name*/,
+._2KQyF /*Top user/group name*/,
+.YmixP /*Top group user preview*/,
+.qpqWq /*Details username*/,
+.ekBrd /*Details username ~nickname*/,
+._1gbaa /*Starred messages username*/,
+.YOG23 /*Details group name*/,
+.selectable-text ._1Kn3o /*About user phone number*//*,
+._19038 *//*Message in chat*/
+{
+  filter: blur(5px) grayscale(1);
+  transition-delay: 0s;
+}
+
+._3Dr46:hover /*List user/group name*/,
+._2KQyF:hover /*Top user/group name*/,
+.YmixP:hover /*Top group user preview*/,
+.qpqWq:hover /*Details username*/,
+.ekBrd:hover /*Details username ~nickname*/,
+._1gbaa:hover /*Starred messages username*/,
+.YOG23:hover /*Details group name*/,
+.selectable-text ._1Kn3o:hover /*About user phone number*//*,
+._19038:hover *//*Message in chat*/
+{
+  filter: blur(0) grayscale(0);
+  transition-delay: 0.3s;
+}
