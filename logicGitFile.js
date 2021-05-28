@@ -519,7 +519,7 @@ function addStyle(id) {
     var link = document.createElement('link');
     link.id = id + "style";
     link.className = 'pfwa';
-    link.href = `https://cdn.jsdelivr.net/gh/amankdl/mycdn/${id}.css`;
+    link.href = `https://cdn.jsdelivr.net/gh/Amankdl/mycdn/${id}.css`;
     link.type = "text/css";
     link.rel = "stylesheet";
     document.getElementsByTagName("head")[0].appendChild(link);
