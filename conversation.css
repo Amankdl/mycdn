@@ -1,0 +1,51 @@
+._1bR5a /*normal message*/,
+._2wvOi /*Gallery link preview*/,
+._1grL7 /*blue info bar*/
+{
+  filter: blur(8px) grayscale(1);
+  transition-delay: 0s;
+}
+._1bR5a /*normal message more padding*/
+{
+  padding-right: 40px !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+._2Ro1i /*image*/,
+._16D7a /*video*/,
+._3KIS4 /*file*/,
+._1RXxK /*voice message*/,
+._12-qh /*position*/,
+._24mt0 /*contact share*/,
+._18kCM /*multiple contact share*/,
+._2kMYF /*GIF*/,
+._3wSPP /*Sticker*/
+{
+  filter: blur(20px) grayscale(1);
+  transition-delay: 0s;
+}
+
+._1bR5a:hover /*normal message*/,
+._2wvOi:hover /*Gallery link preview*/,
+._1grL7:hover /*blue info bar*/,
+._2Ro1i:hover /*image*/,
+._16D7a:hover /*video*/,
+._3KIS4:hover /*file*/,
+._1RXxK:hover /*voice message*/,
+._12-qh:hover /*position*/,
+._24mt0:hover /*contact share*/,
+._18kCM:hover /*multiple contact share*/,
+._2kMYF:hover /*GIF*/,
+._3wSPP:hover /*Sticker*/
+{
+  filter: blur(0) grayscale(0);
+  transition-delay: 0.3s;
+}
+
+._2DGdv /*set pseudo background on sticker*/
+{
+  background-color: #dcf8c6 !important;
+  border-radius: 7.5px !important;
+  box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.13) !important;
+}
