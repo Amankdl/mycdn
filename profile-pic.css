@@ -1,0 +1,17 @@
+.-y4n1 /*profile pic*/
+{
+  filter: blur(7px) grayscale(1);
+  transition-delay: 0s;
+}
+._2gXlr /*Details profile pic*/
+{
+  filter: blur(12px) grayscale(1);
+  transition-delay: 0s;
+}
+
+.-y4n1:hover /*profile pic*/,
+._2gXlr:hover /*Details profile pic*/
+{
+  filter: blur(0) grayscale(0);
+  transition-delay: 0.3s;
+}
