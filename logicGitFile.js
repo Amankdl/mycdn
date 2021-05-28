@@ -519,7 +519,7 @@ function addStyle(id) {
     var link = document.createElement('link');
     link.id = id + "style";
     link.className = 'pfwa';
-    link.href = chrome.extension.getURL('settings/'+id+'.css');;
+    link.href = chrome.extension.getURL('settings/'+id+'.css');
     link.type = "text/css";
     link.rel = "stylesheet";
     document.getElementsByTagName("head")[0].appendChild(link);
